@@ -9,9 +9,9 @@
                 data-toggle="modal"
                 data-target="#new-house-form"
         >
-          <CreateHouseModal />
           <i class="fas fa-plus" aria-hidden="true"></i>
         </button>
+        <CreateHouseModal />
       </div>
     </div>
     <div class="row">
