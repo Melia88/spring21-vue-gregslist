@@ -33,12 +33,16 @@ export default {
   name: 'CarsPage',
   setup() {
     const state = reactive({
+      // step2
       loading: true,
       cars: computed(() => AppState.cars)
     })
 
     // This fires everytime this component is rendered to the Dom
     // similar to how we were using the 'constructor' of the controllers in MVC
+    // onMounted says go get this as soon as the page runs
+
+    // step 1
     onMounted(async() => {
       try {
         await carsService.getCars()

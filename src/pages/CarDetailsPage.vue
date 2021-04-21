@@ -18,7 +18,7 @@ import { carsService } from '../services/CarsService'
 export default {
   name: 'CarDetails',
   setup() {
-    // ROUTE is the current page info
+    // ROUTE is the current page info allows me to get the url
     const route = useRoute()
     // ROUTER is the toolset of changing routes automatically
     const router = useRouter()
